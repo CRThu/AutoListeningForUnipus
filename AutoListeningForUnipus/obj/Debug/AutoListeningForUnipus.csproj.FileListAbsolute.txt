@@ -1,0 +1,28 @@
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.exe.config
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.exe
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.pdb
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.csprojResolveAssemblyReference.cache
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.Form1.resources
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.Properties.Resources.resources
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.csproj.GenerateResource.Cache
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.exe
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\csExercise\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.pdb
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.exe.config
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.exe
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.pdb
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.csprojResolveAssemblyReference.cache
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.Form1.resources
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.Properties.Resources.resources
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.csproj.GenerateResource.Cache
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.exe
+C:\Users\YummyCarrot\Desktop\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.pdb
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.exe.config
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.exe
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.pdb
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.exe
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\bin\Debug\AutoListeningForUnipus.pdb
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.csprojResolveAssemblyReference.cache
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.Properties.Resources.resources
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.csproj.GenerateResource.Cache
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.About.resources
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.MainForm.resources

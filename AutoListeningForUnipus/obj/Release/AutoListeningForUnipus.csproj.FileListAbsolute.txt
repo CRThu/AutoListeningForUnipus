@@ -1,0 +1,10 @@
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\bin\Release\AutoListeningForUnipus.exe.config
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\bin\Release\AutoListeningForUnipus.exe
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\bin\Release\AutoListeningForUnipus.pdb
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.Properties.Resources.resources
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.csproj.GenerateResource.Cache
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.exe
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.pdb
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.csprojResolveAssemblyReference.cache
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.About.resources
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.MainForm.resources
