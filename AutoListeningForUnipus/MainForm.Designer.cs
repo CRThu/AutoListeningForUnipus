@@ -42,18 +42,18 @@
             this.stopAutoButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.RefreshEveryHour = new System.Windows.Forms.CheckBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.webBrowser1.Location = new System.Drawing.Point(12, 39);
+            this.webBrowser1.Location = new System.Drawing.Point(3, 3);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1188, 982);
+            this.webBrowser1.Size = new System.Drawing.Size(1197, 990);
             this.webBrowser1.TabIndex = 0;
             // 
             // startButton
@@ -164,31 +164,39 @@
             this.panel1.Controls.Add(this.totalTime);
             this.panel1.Controls.Add(this.pauseButton);
             this.panel1.Controls.Add(this.startButton);
-            this.panel1.Location = new System.Drawing.Point(1206, 39);
+            this.panel1.Location = new System.Drawing.Point(1206, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(335, 981);
+            this.panel1.Size = new System.Drawing.Size(335, 990);
             this.panel1.TabIndex = 9;
             // 
             // RefreshEveryHour
             // 
             this.RefreshEveryHour.AutoSize = true;
-            this.RefreshEveryHour.Checked = true;
-            this.RefreshEveryHour.CheckState = System.Windows.Forms.CheckState.Checked;
             this.RefreshEveryHour.Font = new System.Drawing.Font("微软雅黑", 11F);
-            this.RefreshEveryHour.Location = new System.Drawing.Point(57, 648);
+            this.RefreshEveryHour.Location = new System.Drawing.Point(50, 648);
             this.RefreshEveryHour.Name = "RefreshEveryHour";
-            this.RefreshEveryHour.Size = new System.Drawing.Size(217, 29);
+            this.RefreshEveryHour.Size = new System.Drawing.Size(236, 29);
             this.RefreshEveryHour.TabIndex = 9;
-            this.RefreshEveryHour.Text = "每小时刷新(防止离线)";
+            this.RefreshEveryHour.Text = "每小时刷新(不推荐勾选)";
             this.RefreshEveryHour.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.webBrowser1);
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 28);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1553, 1005);
+            this.panel2.TabIndex = 10;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1553, 1033);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.webBrowser1);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
@@ -198,6 +206,7 @@
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,6 +227,7 @@
         private System.Windows.Forms.Button stopAutoButton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox RefreshEveryHour;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
