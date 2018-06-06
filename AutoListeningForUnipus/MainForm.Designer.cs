@@ -40,22 +40,26 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stopAutoButton = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.RefreshEveryHour = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // webBrowser1
             // 
+            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.webBrowser1.Location = new System.Drawing.Point(12, 39);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(1188, 982);
             this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // startButton
             // 
             this.startButton.Font = new System.Drawing.Font("微软雅黑", 14F);
-            this.startButton.Location = new System.Drawing.Point(1256, 381);
+            this.startButton.Location = new System.Drawing.Point(74, 346);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(182, 104);
             this.startButton.TabIndex = 1;
@@ -66,7 +70,7 @@
             // pauseButton
             // 
             this.pauseButton.Font = new System.Drawing.Font("微软雅黑", 14F);
-            this.pauseButton.Location = new System.Drawing.Point(1256, 516);
+            this.pauseButton.Location = new System.Drawing.Point(74, 481);
             this.pauseButton.Name = "pauseButton";
             this.pauseButton.Size = new System.Drawing.Size(182, 104);
             this.pauseButton.TabIndex = 2;
@@ -77,9 +81,9 @@
             // buttonStatus
             // 
             this.buttonStatus.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.buttonStatus.Location = new System.Drawing.Point(1206, 39);
+            this.buttonStatus.Location = new System.Drawing.Point(9, 30);
             this.buttonStatus.Name = "buttonStatus";
-            this.buttonStatus.Size = new System.Drawing.Size(292, 67);
+            this.buttonStatus.Size = new System.Drawing.Size(323, 67);
             this.buttonStatus.TabIndex = 3;
             this.buttonStatus.Text = "播放/暂停键状态:\r\n*******************";
             // 
@@ -92,7 +96,7 @@
             // autoButton
             // 
             this.autoButton.Font = new System.Drawing.Font("微软雅黑", 14F);
-            this.autoButton.Location = new System.Drawing.Point(1256, 682);
+            this.autoButton.Location = new System.Drawing.Point(74, 683);
             this.autoButton.Name = "autoButton";
             this.autoButton.Size = new System.Drawing.Size(182, 104);
             this.autoButton.TabIndex = 4;
@@ -103,18 +107,18 @@
             // timeStatus
             // 
             this.timeStatus.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.timeStatus.Location = new System.Drawing.Point(1206, 116);
+            this.timeStatus.Location = new System.Drawing.Point(9, 107);
             this.timeStatus.Name = "timeStatus";
-            this.timeStatus.Size = new System.Drawing.Size(292, 97);
+            this.timeStatus.Size = new System.Drawing.Size(323, 97);
             this.timeStatus.TabIndex = 5;
             this.timeStatus.Text = "时间状态:\r\n*******************\r\n时长: ***秒";
             // 
             // totalTime
             // 
             this.totalTime.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.totalTime.Location = new System.Drawing.Point(1206, 232);
+            this.totalTime.Location = new System.Drawing.Point(9, 223);
             this.totalTime.Name = "totalTime";
-            this.totalTime.Size = new System.Drawing.Size(292, 69);
+            this.totalTime.Size = new System.Drawing.Size(323, 69);
             this.totalTime.TabIndex = 6;
             this.totalTime.Text = "播放总时间:\r\n00小时00分钟00秒";
             // 
@@ -125,7 +129,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1510, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1553, 28);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -139,7 +143,7 @@
             // stopAutoButton
             // 
             this.stopAutoButton.Font = new System.Drawing.Font("微软雅黑", 14F);
-            this.stopAutoButton.Location = new System.Drawing.Point(1256, 811);
+            this.stopAutoButton.Location = new System.Drawing.Point(74, 812);
             this.stopAutoButton.Name = "stopAutoButton";
             this.stopAutoButton.Size = new System.Drawing.Size(182, 104);
             this.stopAutoButton.TabIndex = 8;
@@ -147,18 +151,43 @@
             this.stopAutoButton.UseVisualStyleBackColor = true;
             this.stopAutoButton.Click += new System.EventHandler(this.stopAutoButton_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Controls.Add(this.RefreshEveryHour);
+            this.panel1.Controls.Add(this.buttonStatus);
+            this.panel1.Controls.Add(this.stopAutoButton);
+            this.panel1.Controls.Add(this.timeStatus);
+            this.panel1.Controls.Add(this.autoButton);
+            this.panel1.Controls.Add(this.totalTime);
+            this.panel1.Controls.Add(this.pauseButton);
+            this.panel1.Controls.Add(this.startButton);
+            this.panel1.Location = new System.Drawing.Point(1206, 39);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(335, 981);
+            this.panel1.TabIndex = 9;
+            // 
+            // RefreshEveryHour
+            // 
+            this.RefreshEveryHour.AutoSize = true;
+            this.RefreshEveryHour.Checked = true;
+            this.RefreshEveryHour.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.RefreshEveryHour.Font = new System.Drawing.Font("微软雅黑", 11F);
+            this.RefreshEveryHour.Location = new System.Drawing.Point(57, 648);
+            this.RefreshEveryHour.Name = "RefreshEveryHour";
+            this.RefreshEveryHour.Size = new System.Drawing.Size(217, 29);
+            this.RefreshEveryHour.TabIndex = 9;
+            this.RefreshEveryHour.Text = "每小时刷新(防止离线)";
+            this.RefreshEveryHour.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1510, 1033);
-            this.Controls.Add(this.stopAutoButton);
-            this.Controls.Add(this.totalTime);
-            this.Controls.Add(this.timeStatus);
-            this.Controls.Add(this.autoButton);
-            this.Controls.Add(this.buttonStatus);
-            this.Controls.Add(this.pauseButton);
-            this.Controls.Add(this.startButton);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(1553, 1033);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -167,6 +196,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,6 +216,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Button stopAutoButton;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.CheckBox RefreshEveryHour;
     }
 }
 
