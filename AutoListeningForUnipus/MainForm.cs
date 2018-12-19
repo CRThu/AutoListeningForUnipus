@@ -20,7 +20,8 @@ namespace AutoListeningForUnipus
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            webBrowser1.Url = new Uri("https://ucontent.unipus.cn/_pc_default/pc.html?#/course-v1:Unipus+nsce_2_rcls_2+2018_03/courseware/u1/u1g18/u1g19/u1g20/p_1");
+            //webBrowser1.Url = new Uri("https://ucontent.unipus.cn/_pc_default/pc.html?#/course-v1:Unipus+nsce_2_rcls_2+2018_03/courseware/u1/u1g18/u1g19/u1g20/p_1");
+            webBrowser1.Url = new Uri("https://ucontent.unipus.cn/_pc_default/pc.html?#/course-v1:Unipus+nsce_2_rcls_3+2018_03/courseware/u1/u1g19/u1g20/u1g21/p_1");
         }
 
 
@@ -107,6 +108,6 @@ namespace AutoListeningForUnipus
         {
             new About().ShowDialog();
         }
-        
+
     }
 }
