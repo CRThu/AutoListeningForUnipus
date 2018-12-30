@@ -26,3 +26,4 @@ C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipu
 C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.csproj.GenerateResource.Cache
 C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.About.resources
 C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.MainForm.resources
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Debug\AutoListeningForUnipus.设置.resources

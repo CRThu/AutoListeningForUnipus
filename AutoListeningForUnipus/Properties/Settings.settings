@@ -1,7 +1,9 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AutoListeningForUnipus.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ucontent.unipus.cn/_pc_default/pc.html?#/course-v1:Unipus+nsce_2_rcls_3+2018_03/courseware/u1/u1g19/u1g20/u1g21/p_1</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

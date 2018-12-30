@@ -8,3 +8,4 @@ C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipu
 C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.csprojResolveAssemblyReference.cache
 C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.About.resources
 C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.MainForm.resources
+C:\Users\YummyCarrot\Documents\Visual Studio 2015\Projects\AutoListeningForUnipus\AutoListeningForUnipus\obj\Release\AutoListeningForUnipus.设置.resources
